@@ -14,7 +14,7 @@ function masBuscados() {
             </div>
         <div className="row cards  mt-5"> 
             <div className="col-md-3 col-3 auto">
-                <a href="" className="card">
+                <div  className="card">
                   <img src="https://i.imgur.com/oYiTqum.jpg" className="card__image" alt="" />
                   <div className="card__overlay">
                     <div className="card__header">
@@ -25,7 +25,7 @@ function masBuscados() {
                     </div>
                     <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                   </div>
-                </a>      
+                </div>      
             </div>
             <div className="col-md-3 col-3 mx-auto">
                 <div className="card">

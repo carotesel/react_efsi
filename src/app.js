@@ -3,6 +3,8 @@ import Navbar  from './components/navbar.js';
 import MasBuscados from './components/mas-buscados.js';
 import Novedades from './components/novedades.js';
 import Footer from './components/footer.js';
+import axios from 'axios';
+
 
 const App = () => {
     return (
