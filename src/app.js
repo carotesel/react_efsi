@@ -1,8 +1,7 @@
 import React from 'react'
 import Navbar  from './components/navbar.js';
-import MasBuscados from './components/mas-buscados.js';
-import Novedades from './components/novedades.js';
 import Footer from './components/footer.js';
+import CardSlider from './components/card-slider.js';
 import axios from 'axios';
 
 
@@ -10,8 +9,10 @@ const App = () => {
     return (
         <>
             <Navbar/>
-            <MasBuscados/>
-            <Novedades/>
+            <CardSlider />
+            <CardSlider/>
+            <CardSlider/>
+        
             <Footer/>
         </>
     )
